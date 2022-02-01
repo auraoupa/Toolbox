@@ -1,0 +1,3 @@
+ - ```conda info --envs```
+ - ```conda create --name myenv --file spec-file.txt```
+ - ```conda list --explicit > spec-file.txt```
