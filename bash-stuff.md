@@ -1,11 +1,12 @@
-chown -R username somedir
-chgrp -R groupname somedir
-chown -R username:groupname somedir
+  - change permissions for directories :
+    -  ```chown -R username somedir```
+    - ```chgrp -R groupname somedir```
+    - ```chown -R username:groupname somedir```
+    - ```ls -n : affiche les uid et groupe id en chiffre```
 
-ls -n : affiche les uid et groupe id en chiffre
-
-sshfs login@remote:/dir /local/dir/already/created
-fusermount -u /path/to/umount
+  - remote directories as local :
+     - ```sshfs login@remote:/dir /local/dir/already/created```
+     - ```fusermount -u /path/to/umount```
 
  - screen
     - open a new session : ```screen -S name``` 
