@@ -11,6 +11,6 @@
  - screen
     - open a new session : ```screen -S name``` 
     - exit and let it run in the background : ctrl+a+d
-    - list the sessions already opened : ```screen -ls ```
+    - list the sessions already opened : ```screen -ls ```, if you do it on a supercomputer be sure to land on the same login node
     - reopen the session : ```screen -r name```
     - close permanently : ctrl+x or ```exit```
