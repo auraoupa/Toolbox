@@ -14,3 +14,6 @@
     - list the sessions already opened : ```screen -ls ```, if you do it on a supercomputer be sure to land on the same login node
     - reopen the session : ```screen -r name```
     - close permanently : ctrl+x or ```exit```
+
+ - awk -F_ '{print $1}'
+ - sed "s/truc/$machine/g"
