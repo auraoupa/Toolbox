@@ -1,1 +1,0 @@
- - Add a SSH key and replace in .git/config ```https://github.com```by ```ssh://git@github.com```
