@@ -17,3 +17,4 @@
 
  - awk -F_ '{print $1}'
  - sed "s/truc/$machine/g"
+ - pwd -P : show the real path !
