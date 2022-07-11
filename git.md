@@ -2,7 +2,12 @@
 
  - check all the branches : ```git branch -a```
 
- - get all the branches of one repo on a local machine : ```git checkout remotes/origin/issue9_clang_format```
+ - get all the branches of one repo on a local machine : 
+
+```
+git checkout remotes/origin/issue9_clang_format
+git checkout issue9_clang_format (or git switch)
+```
  - create new branch from some branch : ```git checkout -b subbranch_of_b1 branch1```
  - push your new branch on github : 
 
@@ -11,6 +16,8 @@ git add *
 git commit -m 'comment'
 git push --set-upstream origin subbranch_of_b1
 ```
+  - update a branch from another : checkout on the destination branch and  ```git merge origin-branch```
+
 
 ## Cancel adding and committing files
 
