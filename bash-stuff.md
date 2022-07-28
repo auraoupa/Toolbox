@@ -18,3 +18,9 @@
  - awk -F_ '{print $1}'
  - sed "s/truc/$machine/g"
  - pwd -P : show the real path !
+
+ - imagemagick :
+```
+montage Fig_2a* Fig_2b* Fig_2c* -geometry 3072x1024 -tile 1x3 -quality 100 Fig_2-NATL_TSG_tracer_gradients_JFM_1x1.png
+convert Fig_2-NATL_TSG_tracer_gradients_JFM_1x1.png -trim -bordercolor White -border 20x10 +repage Fig_2-NATL_TSG_tracer_gradients_JFM_1x1.png
+```
