@@ -8,7 +8,7 @@
 git checkout remotes/origin/issue9_clang_format
 git checkout issue9_clang_format (or git switch)
 ```
- - create new branch from some branch : ```git checkout -b subbranch_of_b1 branch1```
+ - create new branch from some branch : get on branch1 then ```git checkout -b subbranch_of_b1 branch1```
  - push your new branch on github : 
 
 ```
