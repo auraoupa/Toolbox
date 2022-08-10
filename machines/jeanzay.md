@@ -12,6 +12,8 @@
     - egi :JMB et Stéphanie
     - yrf : Melody
     - ote : Drakkar ?
+    - eee : projet Julien ?
+    - cli : projet Thierry ?
   - changer de projet par défaut : idrproj -d grp1
   - changer de projet actif : eval $(idrenv -d grp1)
   
