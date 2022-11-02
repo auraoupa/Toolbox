@@ -1,3 +1,4 @@
  - ```conda info --envs```
  - ```conda create --name myenv --file spec-file.txt```
+ - ```conda env create -f environment.yml```
  - ```conda list --explicit > spec-file.txt```
