@@ -28,6 +28,11 @@ git commit --amend -C HEAD
 git push ...
 ```
 
+## Get commit hash of a repo
+
+```
+git rev-parse --short HEAD
+```
 
 ## Revert to a previous version
 
