@@ -23,6 +23,11 @@ http://www.idris.fr/jean-zay/
 
 - idrquota -w -p egi : pour l'espace work dans le projet egi
 
+## Compiler un code
+
+- ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:30:00 --account=cli@cpu bash```
+
+
 ## Faire tourner le serveur jupyterhub
 
    - [ssh to cal1, ssh meom] from lgge194 : ssh -CY rote001@jean-zay.idris.fr
