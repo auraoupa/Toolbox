@@ -30,6 +30,10 @@ http://www.idris.fr/jean-zay/
 
 ## Faire tourner le serveur jupyterhub
 
+**Update new jupyterhub server**
+   - go on a machine recognized by jean-zay (or make a tunnel to cal1 : ```ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr```)
+   - open https://jupyterhub.idris.fr/ in a browser (with proxy parameters set to SOCKS with port 3128)
+
    - [ssh to cal1, ssh meom] from lgge194 : ssh -CY rote001@jean-zay.idris.fr
    - ```module load python/3.7.3```
    - ```salloc --ntasks=1 --cpus-per-task=5 --account=egi@cpu --time=00:10:00 srun --pty bash``` ou ```salloc --ntasks=1 --cpus-per-task=40 --partition=prepost --account=egi@cpu --time=03:10:00 srun --pty bash```
@@ -50,4 +54,5 @@ http://www.idris.fr/jean-zay/
   - http://www.idris.fr/eng/jean-zay/cpu/jean-zay-cpu-calculateurs-disques-eng.html
   - http://www.idris.fr/jean-zay/cpu/jean-zay-cpu-doc_multi_projet.html
   - http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyter-notebook.html
+  - http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyterhub.html
   
