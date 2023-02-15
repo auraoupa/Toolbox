@@ -23,10 +23,10 @@ http://www.idris.fr/jean-zay/
 
 - idrquota -w -p egi : pour l'espace work dans le projet egi
 
-## Compiler un code
+## Jobs
 
-- ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:30:00 --account=cli@cpu bash```
-
+- demander des ressources interactives dans la queue compil : ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:30:00 --account=cli@cpu bash```
+- checker le temps d'éxecution d'un job : ```sacct -j 736869 --format=jobid,elapsed,state```
 
 ## Faire tourner le serveur jupyterhub
 
