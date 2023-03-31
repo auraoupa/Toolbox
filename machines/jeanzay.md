@@ -26,7 +26,7 @@ http://www.idris.fr/jean-zay/
 ## Jobs
 
 - demander des ressources interactives dans la queue compil : ```srun --pty --ntasks=8 --cpus-per-task=1 --hint=nomultithread --partition=compil --time=00:30:00 --account=cli@cpu bash```
-- checker le temps d'éxecution d'un job : ```sacct -j 736869 --format=jobid,elapsed,state```
+- checker le temps d'éxecution d'un job : ```sacct -j 736869 --format=jobid,elapsed,state,MaxRSS,MaxDiskRead,MaxDiskWrite```
 
 ## Faire tourner le serveur jupyterhub
 
