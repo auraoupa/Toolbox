@@ -1,0 +1,2 @@
+- à la connexion : ```module switch dfldatadir/gen12020```
+- liste des utilisateurs et décompte heures calcul : ```ccc_myproject  -a```
