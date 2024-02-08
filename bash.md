@@ -28,3 +28,22 @@
 
  - compter le nombre d'inode : ```du --inode```
  - lister les répertoires : ```ls -d */```, récupérer dernière partie d'un chemin : ```basename $path```
+
+ - renommer répertoires avec 6 digits :
+
+```bash
+
+for dir in $(ls -d */); do
+  ni=$(basename $dir | awk -F- '{print $1}')
+  nf=$(basename $dir | awk -F- '{print $2}')
+  nbi=${#ni}
+  nbf=${#nf}
+  if [ $nbi -eq 5 ]; then
+    if [ $nbf -eq 5 ]; then
+      mv ${ni}-${nf} 0${ni}-0${nf}
+   else
+      mv ${ni}-${nf} 0${ni}-${nf}
+   fi
+  fi
+ done
+```
