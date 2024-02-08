@@ -41,9 +41,9 @@ for dir in $(ls -d */); do
   if [ $nbi -eq 5 ]; then
     if [ $nbf -eq 5 ]; then
       mv ${ni}-${nf} 0${ni}-0${nf}
-   else
+    else
       mv ${ni}-${nf} 0${ni}-${nf}
-   fi
+    fi
   fi
- done
+done
 ```
