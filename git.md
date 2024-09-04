@@ -2,9 +2,10 @@
 
 In a local repo :
 ```bash
-git init -b main
+git init
 git add . #make a .gitignore
 git remote add origin URL
+git push --set-upstream origin master
 ```
 
 ## .gitignore
