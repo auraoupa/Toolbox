@@ -51,3 +51,38 @@ My template : https://github.com/alshedivat/al-folio
 
 https://jekyllrb.com/docs/installation/macos/
 gem install jekyll bundler
+
+## Managing two accounts same machine
+
+  - generate two ssh keys associated with the two emails :
+
+```
+ssh-keygen -t rsa -C "auraoupa@gmail.com"
+ssh-add ~/.ssh/id_auraoupa
+
+ssh-keygen -t rsa -C "aalbert.meom@gmail.com"
+ssh-add ~/.ssh/id_aureliealbertmeom
+```
+
+and add them to the adequate github account
+
+
+ - separate git repo in two directories : ```mkdir ~/Work/git/auraoupa ~/Work/git/aureliealbertmeom```
+ - set up a .gitconfig file in each directories and a general one that redirects to the relevant one :
+
+general :
+```
+[includeIf "gitdir:~/Work/git/auraoupa"]
+        path = ~/Work/git/auraoupa/.gitconfig
+
+[includeIf "gitdir:~/Work/git/aureliealbertmeom"]
+        path = ~/Work/git/aureliealbertmeom/.gitconfig
+```
+
+specific :
+```
+[user]
+name = auraoupa
+email = auraoupa@gmail.com
+```
+
