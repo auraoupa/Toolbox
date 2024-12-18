@@ -47,3 +47,14 @@ for dir in $(ls -d */); do
   fi
 done
 ```
+
+  - sum :
+```bash
+num=$((num1 + num2))
+num=$(($num1 + $num2))       
+num=$((num1 + 2 + 3))      
+num=$[num1+num2]
+num=`expr $num1 + $num2`
+```
+
+
