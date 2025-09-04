@@ -1,3 +1,17 @@
+## Initialize a repo
+
+In a local repo :
+```bash
+git init
+git add . #make a .gitignore
+git remote add origin URL
+git push --set-upstream origin master
+```
+
+## .gitignore
+
+**/truc -> everywhere
+
 ## About git branches
 
  - check all the branches : ```git branch -a```
