@@ -57,4 +57,4 @@ num=$[num1+num2]
 num=`expr $num1 + $num2`
 ```
 
-
+ - remove empty directories : ```for dir in $(ls -d *); do if [ -z "$( ls -A $dir)" ]; then rm -rf $dir; fi; done```
