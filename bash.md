@@ -58,3 +58,4 @@ num=`expr $num1 + $num2`
 ```
 
  - remove empty directories : ```for dir in $(ls -d *); do if [ -z "$( ls -A $dir)" ]; then rm -rf $dir; fi; done```
+ - extract from string : ```houri=$(echo ${datei:9:2})```
