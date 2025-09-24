@@ -61,3 +61,25 @@ num=`expr $num1 + $num2`
  - extract from string : ```houri=$(echo ${datei:9:2})```
  - check if file exists : ```if [ ! -f  $fileo ]; then```
  - ```mm = $(printf "%02d" $m)```
+
+ - case :
+```bash
+case EXPRESSION in
+
+  PATTERN_1)
+    STATEMENTS
+    ;;
+
+  PATTERN_2)
+    STATEMENTS
+    ;;
+
+  PATTERN_N)
+    STATEMENTS
+    ;;
+
+  *)
+    STATEMENTS
+    ;;
+esac
+```
