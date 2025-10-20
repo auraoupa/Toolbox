@@ -27,6 +27,7 @@
  - wget : ``` wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/eNATL60/eNATL60-BLB002/eNATL60/UVvertmean1d/eNATL60-BLB002_y20{09..10}m{01..12}d{01..31}.1d_Uvertmean0-10m.nc  ```
 
  - compter le nombre d'inode : ```du --inode```
+ - vraie taille : ```du --apparent-size```
  - lister les répertoires : ```ls -d */```, récupérer dernière partie d'un chemin : ```basename $path```
 
  - renommer répertoires avec 6 digits :
