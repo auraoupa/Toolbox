@@ -29,6 +29,7 @@
  - compter le nombre d'inode : ```du --inode```
  - vraie taille : ```du --apparent-size```
  - lister les répertoires : ```ls -d */```, récupérer dernière partie d'un chemin : ```basename $path```
+ - enlever dernier caractère d'un string : ${var::-1}
 
  - renommer répertoires avec 6 digits :
 
