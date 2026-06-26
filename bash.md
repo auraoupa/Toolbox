@@ -31,6 +31,8 @@
  - lister les répertoires : ```ls -d */```, récupérer dernière partie d'un chemin : ```basename $path```
  - enlever dernier caractère d'un string : ${var::-1}
 
+ - find : ```find . -name "*OHC*" -ls```
+
  - renommer répertoires avec 6 digits :
 
 ```bash
